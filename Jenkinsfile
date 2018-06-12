@@ -9,7 +9,8 @@ pipeline {
     }
     post { 
         always { 
-            echo 'I will always say Hello again!'
+            echo 'Msg1'
+            echo 'Msg2'
         }
     }
 }
